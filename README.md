@@ -1,3 +1,6 @@
+## 📫 Contact
+
+Made with ❤️ by [Awais Arif](mailto:awaisariff004@gmail.com)
 # 💱 Currency Converter Web App
 
 A simple and responsive currency converter built with **React.js**. It fetches real-time exchange rates and displays currency conversion with country flags.
@@ -31,28 +34,16 @@ A simple and responsive currency converter built with **React.js**. It fetches r
 | ![Desktop View](./public/Desktopview.png) | ![Mobile View](./public/Mobileview.png) |
 
 ---
+## ✨ Features
 
-## 📦 How to Use
-
-> You can upload files and create this project directly through GitHub’s web interface:
-
-### 1. Clone / Upload your files:
-- Drag and drop your files (`public`, `src`, `package.json`, etc.) to a new GitHub repo.
-
-### 2. Add this README
-- Click **"Add file" → "Create new file"**
-- Name it `README.md`
-- Paste the contents of this file into the editor
-- Commit directly to the main branch
-
-### 3. Enable GitHub Pages (Optional)
-- Go to **Settings > Pages**
-- Set the source branch to `main` and root folder
-- GitHub will provide a live link to your deployed app
+- Real-time currency conversion using ExchangeRate API
+- Intuitive country flag display
+- One-click currency swapping
+- Responsive design (mobile/tablet/desktop)
+- Modern UI with glassmorphism effect
 
 ---
 
-## 🛠️ Developer Setup (Optional)
 
 ```bash
 # Clone the repository
