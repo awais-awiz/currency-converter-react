@@ -1,0 +1,15 @@
+
+*,#root {
+  margin: 0; padding: 0; box-sizing: border-box; font-family: "Outfit";
+   }
+   body {
+    color: #f5f5f5;
+    background-color: #0a0a23;
+    font-family: 'Segoe UI';
+    height: 100vh;
+    background: url("bg.png") #030728 no-repeat center;
+    background-size: cover;
+  }
+  #root{height: 100vh; width: 100vh; }
+
+  

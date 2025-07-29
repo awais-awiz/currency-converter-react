@@ -1,0 +1,121 @@
+/* common properties */
+#root,.dropdown, .selectcontainer, .box , body , .swap-icon{  display: flex; justify-content: center;  align-items: center; }
+
+.container {
+  width: 100%;
+  padding: 40px 30px 50px;  margin: 5px 5px;
+  border-radius: 8px;
+  backdrop-filter: blur(30px);
+  background: linear-gradient(145deg, rgba(15, 23, 42, 0.8), rgba(3, 7, 30, 0.6));
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+}
+.Heading{
+  display: block;
+  margin: auto;
+  text-align: center;
+  font-size: 2rem;  font-weight: 700; font-family: 'Roboto';
+}
+
+.dropdown { justify-content: space-between; } 
+
+form {
+  display: flex; justify-content: center;  align-items: center; flex-direction: column;
+  height: 90%;
+  margin-top: 20px;
+  font-family: 'Orbitron';;
+  gap: 20px;
+}
+.form-label { font-family: 'sunflower';}
+
+#amount {
+  font-size: 1.1rem;
+  height: 48px;
+  /*margin: 20px 0;*/
+  border-radius: 6px;
+  padding-left: 10px;
+}
+.box{
+  height: 100%;
+  flex-direction: column; align-items: self-start;
+/*  margin: 20px 0;*/
+  gap: 10px;
+}
+
+label{  font-size: 1.2rem;  }
+
+.selectcontainer{
+  padding: 0 10px;
+  min-height: 45px;
+  border-radius: 6px;
+}
+.swap-icon {
+  height: 40px;width: 40px;
+  cursor: pointer;
+  margin-top: 25px;
+  border-radius: 50%;
+  transition: 0.2s ease;
+}
+/*Commomn properties for background, img and font color*/
+.background { background: rgba(255, 255, 255, 0.1); border: 1px solid rgba(255, 255, 255, 0.5);}
+img { width: 25px;  }
+.fontclr{ color: #fff; }
+
+select {
+  border: none; outline: none;  background: transparent;
+  font-size: 1rem;
+  padding: 0 8px;
+  color:#fff;
+}
+select:focus {  background: rgba(255, 255, 255, 0.1);}
+
+/* Button styles */
+#submit{
+  min-height: 52px;
+  border: none; cursor: pointer;
+  transition: 0.2s ease;
+}
+#submit:hover { background: rgba(255, 255, 255, 0.3); } 
+#Total , #submit{ font-size: 1.1rem; font-weight: 600;  border-radius: 6px;}
+#Total{
+  padding: 15px 10px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+#submit,#amount , form , .dropdown , .Heading{  width:100%  }
+
+/* Responsive media query for screens */
+@media screen and (max-width: 400px) {
+
+.container { padding: 15px 10px 15px; }
+.dropdown { flex-direction: column;gap:10px; }
+.box {  flex-direction: row;  }
+
+.swap-icon {  margin: 0px 0px;  transform: rotate(90deg); }
+#Total , #submit, #amount,label , select{ font-size: 0.7rem;  padding: 10px 0;}
+
+.selectcontainer{ min-height: 35px;}
+#amount{  height: 30px;}
+}
+
+@media screen and (max-width: 340px) {
+  .Heading {  font-size: 1.4rem;  }
+  form{gap: 10px;}
+}
+
+@media screen and (max-height: 500px) {
+  .Heading {  font-size: 1.4rem;  }
+  form{gap: 5px;}
+}
+@media screen and (max-height: 410px) {
+  .Heading {  font-size: 1rem;  }
+  form{gap: 5px;}
+  .container { padding: 10px 5px 10px; }
+}
+/* Remove number input arrows */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
