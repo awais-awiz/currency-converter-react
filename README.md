@@ -7,6 +7,11 @@ A simple and responsive currency converter built with **React.js**. It fetches r
 
 ---
 
+## 🚀 Live Demo
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Visit%20Now-brightgreen?style=for-the-badge)](https://currencyconverter-app0398.netlify.app/)
+
+
+---
 ## 🌍 Live Exchange Rate Conversion
 
 - 🌐 Convert any amount from one currency to another
